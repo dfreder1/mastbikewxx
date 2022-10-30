@@ -1,0 +1,33 @@
+Tue Apr  7 08:43:01 2020
+Partly Sunny, 46F, Wind 2 mph from WNW
+Mostly Sunny, 67F, Wind 5 mph from WNW
+Partly Sunny, 49F, Wind 3 mph from ENE
+Sunny, 58F, Wind 14 mph from W
+Mostly Sunny, 42F, Wind 1 mph from NNW
+Sunny, 59F, Wind 6 mph from NNW
+Mostly Sunny, 44F, Wind 1 mph from NE
+Mostly Sunny, 63F, Wind 7 mph from NNW
+AQI: Good
+AQI: Good
+AQI: Good
+AQI: Good
+AQI: Good
+AQI: Good
+AQI: Good
+AQI: Good
+Bikelights: Before 06:16 AM
+Bikelights: After 07:34 PM
+Bikelights: Before 06:20 AM
+Bikelights: After 07:37 PM
+Bikelights: Before 06:14 AM
+Bikelights: After 07:46 PM
+Bikelights: Before 06:19 AM
+Bikelights: After 07:36 PM
+No data
+No data
+No data
+No data
+No data
+No data
+No data
+No data
