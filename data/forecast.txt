@@ -1,12 +1,12 @@
-Tue Apr  7 08:43:01 2020
-Partly Sunny, 46F, Wind 2 mph from WNW
-Mostly Sunny, 67F, Wind 5 mph from WNW
-Partly Sunny, 49F, Wind 3 mph from ENE
-Sunny, 58F, Wind 14 mph from W
-Mostly Sunny, 42F, Wind 1 mph from NNW
-Sunny, 59F, Wind 6 mph from NNW
-Mostly Sunny, 44F, Wind 1 mph from NE
-Mostly Sunny, 63F, Wind 7 mph from NNW
+Sun Oct 30 21:00:29 2022
+Chance Rain Showers, 48F, Wind 5 mph from SSE
+Mostly Clear, 53F, Wind 6 mph from SE
+Slight Chance Light Rain, 55F, Wind 7 mph from WSW
+Mostly Cloudy, 54F, Wind 7 mph from SSW
+Light Rain Likely, 47F, Wind 3 mph from S
+Light Rain, 58F, Wind 13 mph from S
+Slight Chance Light Rain, 53F, Wind 2 mph from WSW
+Mostly Cloudy, 55F, Wind 1 mph from SE
 AQI: Good
 AQI: Good
 AQI: Good
@@ -15,14 +15,14 @@ AQI: Good
 AQI: Good
 AQI: Good
 AQI: Good
-Bikelights: Before 06:16 AM
-Bikelights: After 07:34 PM
-Bikelights: Before 06:20 AM
-Bikelights: After 07:37 PM
-Bikelights: Before 06:14 AM
-Bikelights: After 07:46 PM
-Bikelights: Before 06:19 AM
-Bikelights: After 07:36 PM
+Bikelights: Before 07:06 AM
+Bikelights: After 06:08 PM
+Bikelights: Before 07:08 AM
+Bikelights: After 06:13 PM
+Bikelights: Before 07:23 AM
+Bikelights: After 06:01 PM
+Bikelights: Before 07:07 AM
+Bikelights: After 06:12 PM
 No data
 No data
 No data

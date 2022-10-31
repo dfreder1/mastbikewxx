@@ -46,9 +46,10 @@ def get_wx(wx_url):
    url = wx_url 
    r = requests.get(url)
    status = r.status_code
+   print(url)
    print(status)
    if status != 200:
-      time.sleep(300)
+      time.sleep(30)
       r = requests.get(url)
       status = r.status_code
       print(status,1)
@@ -286,8 +287,8 @@ elif _platform == "win32":
 #
 for wx_url in wx_urls:
    print()
-   print(wx_url)
-   get_wx(url_wx)
+#   print(wx_url)
+   get_wx(wx_url)
 print()
 #
 # AQI from AirNow
