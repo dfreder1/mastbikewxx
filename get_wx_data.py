@@ -16,6 +16,12 @@ cities = ['Sacramento,CA','San Francisco,CA','Portland,OR','San Jose,CA']
 lats = ['38.58','37.77', '45.52','37.39']
 longits = ['-121.49','-122.38','-122.67','-122.08']
 #
+# For now, hard code in the weather urls in the grid points format. Later, could make
+# an added function that gets the url from the api using the lats/longits abovei
+# Hardcoded urls
+#
+wx_urls = ['https://api.weather.gov/gridpoints/STO/40,67/forecast/hourly','https://api.weather.gov/gridpoints/MTR/86,105/forecast/hourly', 'https://api.weather.gov/gridpoints/PQR/112,103/forecast/hourly','https://api.weather.gov/gridpoints/MTR/93,86/forecast/hourly']
+#
 # Define additional data needed for APIs to work
 #
 ymd = datetime.datetime.now()
@@ -33,9 +39,11 @@ url_tide = 'https://tidesandcurrents.noaa.gov/api/datagetter?begin_date='+dat+'&
 #
 # Function for basic weather data from the NWS
 #
-def get_wx(baseurl,lat,longit):
+#def get_wx(baseurl,lat,longit):
+def get_wx(wx_url):
    "This function calls the basic weather data from NWS"
-   url = baseurl + lat+','+longit+'/forecast/hourly' 
+#   url = baseurl + lat+','+longit+'/forecast/hourly' 
+   url = wx_url 
    r = requests.get(url)
    status = r.status_code
    print(status)
@@ -264,7 +272,7 @@ def get_tide(baseurl, city):
 # Open a txt file and write data to it sequentially, line by line, to be assembled into a tweet in another script
 #
 if _platform == "linux" or _platform == "linux2":
-   f = open('/home/dougdroplet2/projects/BikeWxX/BikeWxX/data/forecast.txt','w')
+   f = open('/home/dougdroplet2/projects/BikeWxX/mastbikewxx/data/forecast.txt','w')
    f.write(ymd.strftime("%c")+'\n')
 elif _platform == "darwin":
    f = open('data/forecast.txt','w')
@@ -276,10 +284,10 @@ elif _platform == "win32":
 #
 # Basic weather from NWS
 #
-for city, lat, longit in zip(cities, lats, longits):
+for wx_url in wx_urls:
    print()
-   print(city,lat,longit)
-   get_wx(url_wx, lat, longit)
+   print(wx_url)
+   get_wx(url_wx)
 print()
 #
 # AQI from AirNow
