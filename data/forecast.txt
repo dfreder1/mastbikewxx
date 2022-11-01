@@ -1,12 +1,12 @@
-Sun Oct 30 21:00:29 2022
-Chance Rain Showers, 48F, Wind 5 mph from SSE
-Mostly Clear, 53F, Wind 6 mph from SE
-Slight Chance Light Rain, 55F, Wind 7 mph from WSW
-Mostly Cloudy, 54F, Wind 7 mph from SSW
-Light Rain Likely, 47F, Wind 3 mph from S
-Light Rain, 58F, Wind 13 mph from S
-Slight Chance Light Rain, 53F, Wind 2 mph from WSW
-Mostly Cloudy, 55F, Wind 1 mph from SE
+Mon Oct 31 06:40:58 2022
+Mostly Cloudy, 49F, Wind 2 mph from SE
+Partly Sunny, 70F, Wind 5 mph from SSW
+Cloudy, 53F, Wind 7 mph from SW
+Partly Sunny, 55F, Wind 12 mph from WSW
+Rain, 54F, Wind 13 mph from SSW
+Rain, 53F, Wind 3 mph from SW
+Cloudy, 52F, Wind 2 mph from SSE
+Mostly Cloudy, 60F, Wind 8 mph from NW
 AQI: Good
 AQI: Good
 AQI: Good
@@ -15,14 +15,14 @@ AQI: Good
 AQI: Good
 AQI: Good
 AQI: Good
-Bikelights: Before 07:06 AM
-Bikelights: After 06:08 PM
-Bikelights: Before 07:08 AM
-Bikelights: After 06:13 PM
-Bikelights: Before 07:23 AM
-Bikelights: After 06:01 PM
 Bikelights: Before 07:07 AM
+Bikelights: After 06:07 PM
+Bikelights: Before 07:09 AM
 Bikelights: After 06:12 PM
+Bikelights: Before 07:24 AM
+Bikelights: After 05:59 PM
+Bikelights: Before 07:08 AM
+Bikelights: After 06:11 PM
 No data
 No data
 No data
