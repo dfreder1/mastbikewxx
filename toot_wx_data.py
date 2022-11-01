@@ -49,19 +49,19 @@ for city in cities:
         if toottextlist[i+1][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+1] 
+            toottext = toottext + toottextlist[i+1] +' #bike #bikecommute'
         if toottextlist[i+9][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+9]
+            toottext = toottext + toottextlist[i+9] +' #bike #bikecommute'
         if toottextlist[i+17][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+17]
+            toottext = toottext + toottextlist[i+17] +' #bike #bikecommute'
         if toottextlist[i+25][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+25]
+            toottext = toottext + toottextlist[i+25] +' #bike #bikecommute'
         if toottextlist[i+2][:7] == 'No data':
             toottext = toottext
         else:    
@@ -72,19 +72,19 @@ for city in cities:
         if toottextlist[i+1][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+1]
+            toottext = toottext + toottextlist[i+1] +' #bike #bikecommute'
         if toottextlist[i+10][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+10]
+            toottext = toottext + toottextlist[i+10] +' #bike #bikecommute'
         if toottextlist[i+18][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+18]
+            toottext = toottext + toottextlist[i+18] +' #bike #bikecommute'
         if toottextlist[i+26][:7] == 'No data':
             toottext = toottext
         else:
-            toottext = toottext + toottextlist[i+26]
+            toottext = toottext + toottextlist[i+26] +' #bike #bikecommute'
     print("")
     print(city)
     print(toottext)
