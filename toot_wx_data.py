@@ -5,8 +5,8 @@ from sys import platform as _platform
 #
 # Define the cities considered
 #
-#cities = ['SAC','SF','PDX','SV']
-cities = ['SV']
+cities = ['SAC','SF','PDX','SV']
+#cities = ['SV']
 #
 # Open the txt file previously created and create python List of tweets by cycling through the txt file
 #
