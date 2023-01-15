@@ -5,13 +5,13 @@ from sys import platform as _platform
 #
 # Define the cities considered
 #
-cities = ['SAC','SF','PDX','SV']
-#cities = ['SV']
+#cities = ['SAC','SF','PDX','SV']
+cities = ['SV']
 #
 # Open the txt file previously created and create python List of tweets by cycling through the txt file
 #
 if _platform == "linux" or _platform == "linux2":
-   f = open('/home/dougdroplet2/projects/BikeWxX/BikeWxX/data/forecast.txt','r')
+   f = open('/home/dougdroplet2/projects/BikeWxX/mastbikewxx/data/forecast.txt','r')
 elif _platform == "darwin":
    f = open('data/forecast.txt','r')
 elif _platform == "win32":
